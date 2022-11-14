@@ -34,8 +34,8 @@ const HeroSection = () => {
         <HeroBtnWarpper>
           <Button
             to="signup"
-            onMoverEnter={onHover}
-            onMoverLeave={onHover}
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
             primary="true"
             dark="true"
           >
